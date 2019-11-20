@@ -1,9 +1,8 @@
 <?php
 
 Route::get('/tes',function () {
-    
-auth()->user()->assignRole('admin');
-    // return view('lamanberita');
+
+    return view('lamanberita');
 
 });
 

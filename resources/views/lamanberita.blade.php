@@ -113,6 +113,10 @@
 
 <h1>Berita Terbaru</h1>
 <!-- Isi Konten Disini-->
+@role('user')
+Auth::user()->name
+<h1>haloo</h1>
+@endrole
 @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
