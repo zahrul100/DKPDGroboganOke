@@ -1,0 +1,10 @@
+.kontenberita{
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: whitesmoke;
+}
+.berita{padding-left: 400px;
+        position: relative;
+        top: -200px;}

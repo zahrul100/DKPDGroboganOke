@@ -1,0 +1,375 @@
+@font-face {
+    font-family: code;
+    src: url(CODE\ Light.otf);
+  }
+  @font-face {
+    font-family: codo;
+    src: url(CODE\ Bold.otf);
+  }
+  
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .baru {
+      position: relative;
+      bottom: 10px;
+  }
+  .baru a{
+      
+    transition: color 0.5s ease;
+    text-decoration: none;
+    font-family: calibri light;
+}
+  .semua{
+margin-left: 100px;
+
+  }
+
+.dropdown .asd{
+  background-color: #343b41;
+  position: absolute;top: 40px;
+  left: -70px;
+  opacity: 0.7;
+  border-radius: 0px 20px;padding-bottom: 20px;padding-left: 30px;
+}
+
+.dropdown a{
+  
+  color: #f2f2f2;
+  font-family: code;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  
+  transition: color 0.5s ease;
+  transition: background-color 2s ease;
+}
+.dropdown a:hover{
+ background-color: white;
+ font-family: codo;
+ text-decoration: none;
+}
+
+
+
+
+a:visited { text-decoration: none; ; }
+  .baru a:hover{
+color: #4CAF50;
+text-decoration: none;
+  }
+
+  .header {
+    background-color: white;
+    text-decoration: none;
+
+    padding: 5px;
+  }
+  .isi{
+    margin-left: 80px;
+    display: inline-block;
+    padding-bottom: 30px;
+height: 20px;
+  }
+  .isi a{
+      margin-left: 60px;
+      font-size: 15px;
+  }
+
+  .navbarwarna{
+    height: 50px;
+    width: 100%;
+    z-index: 40;
+    background-color: #343b41;
+  }
+  #navbar {
+    background-color: #343b41;
+    z-index: 40;
+    
+  }
+  .bungkusnavbar{
+      margin-left: 13.5%;
+      z-index: 40;
+  }
+
+  .inia {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: code;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.5s ease;
+  }
+  
+  .inia:hover {
+    color: #343b41;
+    font-family : codo;
+    text-decoration: none;
+  }
+  a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  .beritabaru{
+      height: 100%;
+      position: relative;
+      bottom: 40px;
+      height: 450px;
+      z-index: -1;
+
+
+      background: url(sawah.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
+  }
+  .transparan{
+      height: 40px;
+      background-color:black;
+      position: relative;
+      top: 400px;
+      opacity: 0.6;
+  }
+  .tulisan {
+      color: white;
+      font-family: calibri;
+      position: relative;
+      top: 365px;
+      font-size: 20px;
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+
+  .kadin{
+    font-size: 150%;
+    font-family: calibri;
+    position: absolute;
+    height: 300px;
+    left: 75%;
+    top : 570px;
+    color: #adadad;
+    width: 20%;
+    background-color:white;
+    z-index: 0;;
+  }
+
+.news{
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 30%;
+    background-color: white;
+}
+.judulterbaru{
+    font-size: 200px;
+}
+.pencet{
+    background-color: #e3e3e3;
+   border-radius: 600px 20px;
+    border: none;   
+    position: relative;
+    top: 5px;
+    
+    transition: color 0.5s ease;
+    
+    transition: background-color 0.5s ease;
+}
+.pencet:hover{
+    background-color: #f7b00a;
+    color: white;
+    cursor: pointer;
+}
+
+.kotakberita{
+    font-size: 70%;
+    display: inline-block;
+    background-color: ;
+    border-bottom: 3px solid #f7b00a;
+    height: 50%;
+    width: 48%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.judulkotak{
+    color: white;
+    position: relative;
+    top: 80%;
+    left: 10%;
+    right: 10%;
+    z-index: 1;
+}
+.kotakcover{
+    height: 30%;
+    background-color: black;
+    position: relative;
+    top: 60%;
+    opacity: 0.5;
+}
+
+.content2{
+  height: 800px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  text-align: center;
+  background-color:#f0f0f0;
+}
+.content2 h1{
+  
+  font-family: code;
+}.content2nya{
+  height: 100px;
+  margin-right: 5%;
+  background-color: gold;
+  display: inline-block;
+}
+.hargapangan{
+  background-color: red;
+}
+
+
+.content4{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: codo;
+  font-size: 10px;
+}
+.content4 h2{
+  color: #343b41;
+  border-bottom: 3px solid #f7b00a;
+  border-radius: 0px 20px;
+  background-color: gold;
+  transition: color 1s ease;
+
+
+transition: background-color 0.9s ease;
+  
+}
+.content4 h2:hover{
+  
+  border-bottom: 3px solid gold;
+  background-color: #f7b00a;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 150%;
+  padding: 80px;
+}
+th{
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:hover{
+  
+transition: background-color 0.9s ease;
+  background-color: gold;
+}
+.tabel{
+  margin-left: 20%;
+  width: 600px;
+}
+.downbar{
+  margin-top: 202px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  height: 300px;
+
+  background-color: #343b41;
+
+
+}
+.downbar div{
+  position: inherit
+  font-family: codo;
+  display: inline-block;
+  margin-right: 18%;l
+}
+.linkterkait{position: absolute
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gold;
+  color: black;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #DAA520;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #FFA500}
+
+.button:active {
+  background-color: gold;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#myDIV {
+  width: 70%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #F2D16B;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
