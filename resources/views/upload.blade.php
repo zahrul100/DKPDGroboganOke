@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tutorial Laravel #30 : Membuat Upload File Dengan Laravel</title>
+	<title>Admin Page</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <style>
  
@@ -13,7 +13,6 @@
 	<div class="row">
 		<div class="container">
  
-			<h2 class="text-center my-5">Tutorial Laravel #30 : Membuat Upload File Dengan Laravel</h2>
 			
 			<div class="col-lg-8 mx-auto my-5">	
  
@@ -29,14 +28,16 @@
 					{{ csrf_field() }}
  
 					<div class="form-group">
+					<b>Judul Berita</b>
+						<input type="text" name="judul">
+						</div>
+
+					
+					<div class="form-group">
 						<b>File Gambar</b><br/>
 						<input type="file" name="file">
 					</div>
  
-					<div class="form-group">
-					<b>Judul Berita</b>
-						<input type="text" name="judul">
-						</div>
 					<div class="form-group">
 						<b>Berita</b>
 						<textarea  class="ckeditor" id="ckeditor" class="form-control" name="berita"rows="50" cols="100" ></textarea>
@@ -52,9 +53,8 @@
 						<tr>
 							<th width="1%">File</th>
 							<th width="20%">Judul</th>
-							<th>Berita</th>
 							
-							<th width="1%">Opsi</th>
+							
 						</tr>
 					</thead>
 					<tbody>

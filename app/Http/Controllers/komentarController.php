@@ -20,8 +20,10 @@ class komentarController extends Controller
         komentar::create([
             'isi_komentar' => $request->isi_komentar,
             'id_berita'    => $request->id,
-            'id_pengguna'    => 1,
+            'id_pengguna'    => $request->iduser,
+            'username'      => $request->username,
             ]);
+            // echo $request->username;
         return back();
     }
 
